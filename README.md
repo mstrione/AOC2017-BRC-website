@@ -6,10 +6,11 @@ En este proyecto vamos a crear colaborativamente entre los voluntarios el sitio 
 
 Colaboran en este proyecto
 
-Mauro Strione - InnQube ([mauro.strione@innqube.com](mauro.strione@innqube.com))
-Elías Molini - (Agregar email)
-Omar - (Agregar email y apellido)
-Cristina Cortés (Agregar email)
+* Mauro Strione - InnQube ([mauro.strione@innqube.com](mauro.strione@innqube.com))
+* Elías Molini - (Agregar email)
+* Omar - (Agregar email y apellido)
+* Cristina Cortés - (Agregar email)
+* Mara Villamor - (Agregar email)
 
 ## ¿Cómo sumarse?
 
