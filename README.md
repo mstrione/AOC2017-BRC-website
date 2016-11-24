@@ -16,4 +16,4 @@ Colaboran en este proyecto
 
 Existe un grupo de telegram creado para coordinar los trabajos, se pueden unir con el siguiente link:
 
-(https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ)https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ
+https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ(https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ)
