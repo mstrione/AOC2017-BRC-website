@@ -1,6 +1,9 @@
 # AOC2017 Bariloche Proyecto Website
 
-En este proyecto vamos a crear colaborativamente entre los voluntarios el sitio web de la edición 2017 del Agile Open Camp - Bariloche
+En este proyecto vamos a crear colaborativamente entre los voluntarios el sitio web de la edición 2017 del Agile Open Camp - Bariloche.
+
+Existe una demo online en: 
+http://agileopencamp.com.ar/2017/
 
 ## Colaboradores
 
