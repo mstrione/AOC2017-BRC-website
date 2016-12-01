@@ -39,12 +39,15 @@ p {
 }
 .bg-primary {
   background-color: #F05F40;
+  color: white;
 }
 .bg-success {
     background-color: #68a83f;
+    color: white;
 }
 .bg-info {
     background-color: #0d83c3;
+    color: white;
 }
 .bg-dark {
   background-color: #222222;
