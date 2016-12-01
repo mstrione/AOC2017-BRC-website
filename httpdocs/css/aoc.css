@@ -165,6 +165,11 @@ aside {
     color: #F05F40;
   }
 }
+@media (max-width: 768px)  {
+  .navbar-default .logoWhite{
+    display: none;
+  }
+}
 header {
   position: relative;
   width: 100%;
