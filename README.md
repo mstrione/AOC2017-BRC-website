@@ -2,7 +2,8 @@
 
 En este proyecto vamos a crear colaborativamente entre los voluntarios el sitio web de la edición 2017 del Agile Open Camp - Bariloche.
 
-Existe una demo en: (http://agileopencamp.com.ar/2017/)
+Existe una demo online en: 
+http://agileopencamp.com.ar/2017/
 
 ## Colaboradores
 
