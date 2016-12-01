@@ -7,8 +7,8 @@ En este proyecto vamos a crear colaborativamente entre los voluntarios el sitio 
 Colaboran en este proyecto
 
 * Mauro Strione - InnQube ([mauro.strione@innqube.com](mauro.strione@innqube.com))
-* Elías Molini - (Agregar email)
-* Omar - (Agregar email y apellido)
+* Elías Molini - [eliasmolini@gmail.com](eliasmolini@gmail.com)
+* Omar Fernandez - ([omarfl7@gmail.com](omarfl7@gmail.com))
 * Cristina Cortés - (Agregar email)
 * Mara Villamor - (Agregar email)
 
@@ -16,4 +16,4 @@ Colaboran en este proyecto
 
 Existe un grupo de telegram creado para coordinar los trabajos, se pueden unir con el siguiente link:
 
-[https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ]https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ
+https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ
