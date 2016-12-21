@@ -20,3 +20,9 @@ Colaboran en este proyecto
 Existe un grupo de telegram creado para coordinar los trabajos, se pueden unir con el siguiente link:
 
 https://telegram.me/joinchat/BDMXqQa8rIj5lFOT_5jZfQ
+
+## Página en desarrollo 
+
+Para ver como va quedando la página en desarrollo, en el siguiente link:
+
+https://rawgit.com/mstrione/AOC2017-BRC-website/master/httpdocs/index.html
