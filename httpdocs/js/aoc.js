@@ -60,7 +60,7 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-    // Magnific Popup for typeform
+    // Magnific Popup for typeform for subscribe
     $('#typeform').magnificPopup({
         type: 'iframe',
         iframe: {
