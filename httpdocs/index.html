@@ -102,7 +102,7 @@
     <section class="bg-primary" id="evento">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-12 text-center">
                     <h2 class="section-heading">El evento</h2>
                     <hr class="light">
                     <p class="text-faded">Este es el tercer año que organizamos el Agile Open Camp, un evento comunitario, sin fines de lucro, auto-organizado, en contacto con la región
@@ -111,7 +111,47 @@
                         en un formato relajado y desestructurado, mezclado con actividades gastronómicas, turísticas, deportivas
                         y/o de entretenimiento.
                     </p>
-                    <a href="#inscripcion" class="page-scroll btn btn-default btn-xl sr-button">Pre-Inscríbete</a>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa fa-compass text-white sr-icons"></i>
+                            <h3>Agile</h3>
+                            <p class="text-faded">Nos reúne la temática de la agilidad en el desarrollo de software por un lado (con Scrum, Kanban, Lean, Extreme Programming, etc.), pero en otros dominios también.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-unlock text-white sr-icons"></i>
+                            <h3>Open</h3>
+                            <p class="text-faded">Queremos que el evento sea lo más abierto posible en cuanto a la diversidad de los participantes, temáticas y de actividades propuestas. Buscamos que cada uno pueda proponer y participar en los temas de su interés.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-sun-o text-white sr-icons"></i>
+                            <h3>Camp</h3>
+                            <p class="text-faded">Queremos compartir los 3 días del evento todos juntos en el mismo lugar, para enriquecer la experiencia con encuentros y debates casuales, actividades turísticas, deportivas y entretenimiento, en un lugar encantador en contacto permanente con la naturaleza.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-12 text-center">
+                        <hr class="light">
+                        <div class="alert alert-danger">
+                            <h3>Importante</h3>
+                            <p>Este año contamos además con el apoyo de la Scrum Alliance, que publica el evento en su página y que permitirá cargar las horas del evento como SEUs Categoría A (Scrum Alliance Scrum Gatherings - Scrum Alliance User Group Activity) para los que quieran certificar o renovar CSP.</p>
+                            <br>
+                            <a href="https://membership.scrumalliance.org/events/EventDetails.aspx?id=901111&group=186474" target="_blank">Más información aquí</a>
+                        </div>
+
+                        <a href="#inscripcion" class="page-scroll btn btn-default btn-xl sr-button">Pre-Inscríbete</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -299,35 +339,132 @@
                 <h2 class="text-center">Inscripción</h2>
                 <hr class="dark">
 
-                <p>Hoy, sin sponsors aún el costo es de 300 u$s (Dólares americanos) pero irá descendiendo, esperamos será de un valor de entre 100 y 150 u$s, el valor definitivo se conocerá a mediados de febrero de 2017, pero será necesario que te pre-inscribas:</p>
-                
-                <p>Nos sustentamos con el aporte de nuestros sponsors, cuantos más consigamos, más barato será. Así que necesitamos tu ayuda recomendando o consiguiendo sponsors.</p>
-
-                <p>El precio incluye:</p>
-
-                <ul>
-                    <li><strong>Transporte local:</strong> desde Bariloche al hotel Tronador
-                        <ul>
-                            <li>Ida Jueves 02 de Marzo entre las 18:30 y las 19:00 desde&nbsp;aeropuerto, terminal de&nbsp;micros&nbsp;y/o
-                                centro de Bariloche</li>
-                            <li>Vuelta Domingo 05 de Marzo 18:30 en&nbsp;aeropuerto, terminal de&nbsp;micros&nbsp;y/o centro
-                                de Bariloche</li>
-                        </ul>
-                    </li>
-                    <li><strong>Alojamiento</strong>:
-                        <ul>
-                            <li>En habitaciones compartidas con número variable de personas.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Pensión completa</strong>: desayuno, breaks, almuerzo y cena desde el jueves 2 de Marzo a la
-                        noche hasta el domingo a las 16:00hs.</li>
-                </ul>
-
-                <p class="text-center">El Agile Open Camp es un evento distinto en muchos aspectos, también en la forma de inscribirte, aún estamos preparando el vídeo de este año explicando el mecanismo que tendrá algunas variaciones, puedes ver el del año pasado para ir entendiendo de qué se trata. <a target="_self" class="ut-btn  orange medium round" href="http://www.agileopencamp.com.ar/2016/index.php/sansaru/">Explicación del mecanismo de postulación/inscripción</a>
+                <p class="text-center">El Agile Open Camp es un evento distinto en muchos aspectos, también en la forma de inscribirte y participar, haz click en el siguiente botón para enterarte cómo ser parte de este gran evento.
                 </p>
+
                 <div class="text-center">
-                    <a href="javascript:alert('Ya casi... esta semana abrimos las pre-inscripciones.');" class="btn btn-primary btn-xl sr-button">Pre-inscríbete ahora</a>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    ¡Quiero ser camper!
+                    </button>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Inscripción San Saru</h4>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <h3 class="text-center"> El método san saru</h3>
+
+                        <hr class="dark">
+
+                        <p>Utilizamos un mecanismo de inscripción que nos permita manejar la escasez de entradas con una elección de postulantes distribuida entre todos los participantes. </p>
+
+                        <div class="row">
+
+                            <div class="col-sm-12">
+                                <p>El proceso consta de tres etapas:</p>
+                                <ul>
+                                    <li><strong>Postulación: </strong>Los interesados en participar nos cuentan quiénes son, a qué se dedican, su relación con la agilidad, que ideas pueden aportar al evento y qué esperan llevarse completando un formulario.</li>
+                                    <li><strong>Selección: </strong>Los participantes que vayan siendo seleccionados, deberán seleccionar ellos mismos a otros postulantes. Serán informados oportunamente y se les indicará cómo proceder.</li>
+                                    <li><strong>Inscripción: </strong>Los participantes seleccionados deberán hacer efectiva su inscripción completando el registro y abonando la entrada, también serán informados oportunamente.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-sm-12 text-center">
+                                <p>Hay una explicación más detallada del proceso, estamos armando el vídeo de este año, pero te dejamos la explicación del año pasado que es muy parecida.</p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0ObD75837V0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="text-center">
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            ¿Por qué se llama san saru?
+                            </a>
+                        </div>
+                        <br>
+
+                        <div class="collapse" id="collapseExample">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div style="text-align:center; ">
+                                        <img alt="" class="ut-animate-image animated fadeIn" data-effecttype="image" data-effect="fadeIn" src="http://www.agileopencamp.com.ar/wp-content/uploads/2013/10/sabios-730x301.jpg">
+                                    </div>
+                                    <p>San saru es un término japonés que se podría traducir como “Los tres monos sabios” y representado por la imagen anterior. El concepto tiene varias interpretaciones. La que nos gusta y la que nos llevó a elegir este nombre para el método es la siguiente: Cuenta la leyenda que fueron enviados por los dioses para delatar y castigar las malas acciones de los humanos. Pero estos monos tenían algunas limitaciones.</p>
+                                    <p>
+                                        <ul>
+                                        <li>
+                                        Kikazaru, el mono sordo, era el encargado de utilizar el sentido de la vista para observar a quienes realizaban malas acciones y comunicárselo a Mizaru, mediante la voz.
+                                        </li>
+                                        <li>Mizaru, era el mono ciego. No necesitaba su sentido de la vista, puesto que tan sólo se encargaba de transmitir al tercer mono, Iwazaru, los mensajes que le pasaba Kikazaru.
+                                        </li>
+                                        <li>
+                                            Iwazaru, el tercero de los tres monos, era el mono mudo. Iwazaru escuchaba los mensajes transmitidos por Mizaru para decidir la pena de los dioses que le caería al desafortunado humano que lo mereciese y observar que se cumpliese.
+                                        </li>
+                                        </ul>
+                                    </p>
+
+                                    <p>Colocados los tres monos en función de sus habilidades y de sus discapacidades, obtenemos un mono que ve, escucha y habla. Los monos juntos y bien organizados pueden alcanzar metas que, sin duda alguna, no lograrían por separado. Existen varias posibilidades de colocar a los tres monos. Todas ellas, excepto una, son situaciones de comunicación fallida, de asistencia colaborativa imposible. La que funciona es: primero el mono sordo, que ve y le explica al segundo lo que ve; el segundo, que no necesita ver, pues solo necesita escuchar lo que le dice el primero y transmitírselo al tercero, que no necesita hablar, sino solo escuchar, ver, decidir lo que mejor convenga y velar por su cumplimiento.
+                                    </p>
+
+                                    <div class="alert alert-info">
+                                        ESTA INTERPRETACIÓN NOS EVOCA A ACEPTAR DISCAPACIDADES PROPIAS Y AJENAS, COLABORAR, FORMAR EQUIPOS MULTIFUNCIONALES PARA LOGRAR EL ÉXITO. ¿LES SUENA FAMILIAR?
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 class="text-center"> Costo de inscripción</h3>
+
+                        <hr class="dark">
+
+                        <div class="alert alert-warning"><strong>Importante: </strong> Para postularte no hay que pagar nada, si eres elegido a medidados de febrero recién tienes que pagar.</p>
+                        </div>
+
+                        <p>En este momento, el costo de inscripcion sería de <strong>300 u$s</strong> (Dólares americanos). En la medida que se agregue financiamiento a la lista de financiación (Mediante sponsors o crowfounding), el costo irá descendiendo. Para mediados de febrero, cuando realmente tengamos que pagar las inscripciones, esperamos será de un valor cercano a <strong>100 u$s</strong>. Mientras tanto por favor postulate para participar de la etapa de selección:</p>
+                        
+                        <p>Nos sustentamos con el aporte de nuestros sponsors, cuantos más consigamos, más barato será. Así que necesitamos tu ayuda recomendando o consiguiendo sponsors.</p>
+
+                        <div class="alert alert-info">
+                            <p>El precio incluye:</p>
+
+                            <ul>
+                                <li><strong>Transporte local:</strong> desde Bariloche al hotel Tronador
+                                    <ul>
+                                        <li>Ida Jueves 02 de Marzo entre las 18:30 y las 19:00 desde&nbsp;aeropuerto, terminal de&nbsp;micros&nbsp;y/o
+                                            centro de Bariloche</li>
+                                        <li>Vuelta Domingo 05 de Marzo 18:30 en&nbsp;aeropuerto, terminal de&nbsp;micros&nbsp;y/o centro
+                                            de Bariloche</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Alojamiento</strong>:
+                                    <ul>
+                                        <li>En habitaciones compartidas con número variable de personas.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Pensión completa</strong>: desayuno, breaks, almuerzo y cena desde el jueves 2 de Marzo a la
+                                    noche hasta el domingo a las 16:00hs.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary">Completar formulario de postulación</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -346,7 +483,7 @@
                         te interesa ayudarnos a hacer posible este evento, conocer los beneficios y costos del sponsorship
                         por favor contáctanos y te contamos cómo hacer.
                     </p>
-                    <a href="mailto:aoc@agiles.org" class="btn btn-default btn-xl sr-button">ME INTERESA SER SPONSOR</a>
+                    <a href="mailto:argentina@agileopen.camp" class="btn btn-default btn-xl sr-button">ME INTERESA SER SPONSOR</a>
                 </div>
             </div>
         </div>
@@ -392,7 +529,7 @@
 
             <div class="col-lg-12 text-center">
                 <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                <p><a href="mailto:aoc@agiles.org">aoc@agiles.org</a></p>
+                <p><a href="mailto:argentina@agileopen.camp">argentina@agileopen.camp</a></p>
 
                 <div class="fa-stack ut-custom-icon fa-lg alignnone">
                     <a target="_blank" href="https://www.facebook.com/AgileOpenCamp/"><i class="fa fa-square fa-stack-2x" style="color:#EEE"></i><i class="fa fa-facebook fa-stack-1x" style="color:#333"></i></a>
@@ -400,6 +537,12 @@
                 <div class="fa-stack ut-custom-icon fa-lg alignnone">
                     <a target="_blank" href="https://twitter.com/AgileOpenCamp"><i class="fa fa-square fa-stack-2x" style="color:#EEE"></i><i class="fa fa-twitter fa-stack-1x" style="color:#333"></i></a>
                 </div>
+            </div>
+
+            <div class="col-lg-12 text-center">
+                <p style="padding-top: 100px">
+                    <a href="http://www.innqube.com/"><img src="http://www.innqube.com/powered-by-innqube.png" alt="InnQUbe" data-pin-nopin="true"></a>
+                </p>
             </div>
 
         </div>
