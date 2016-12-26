@@ -60,6 +60,22 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+    // Magnific Popup for typeform
+    $('#typeform').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            markup: '<div class="mfp-iframe-scaler">'+
+                        '<div class="mfp-close"></div>'+
+                        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                      '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+            patterns: {
+                typeform: {
+                    index: 'typeform.com',
+                    src: 'https://aoc1.typeform.com/to/hjzYAM'
+                }
+            }
+        }
+    });
 
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
