@@ -82,9 +82,28 @@ aside {
   width: 70px;
 }
 
+  #typeform {
+    display: block;
+  }
+
+  #typeformMobile {
+    display: none;
+  }
+
 @media (max-width: 768px) {
   .navbar-default .logoWhite {
     display: none;
+  }
+  .logo-big {
+    width: 60%;
+  }
+
+  #typeform {
+    display: none;
+  }
+
+  #typeformMobile {
+    display: block;
   }
 }
 
@@ -438,7 +457,7 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #222222;
+  --webkit-tap-highlight-color: #222222;
 }
 
 .map {
@@ -446,6 +465,22 @@ body {
 }
 
 .mfp-iframe-holder .mfp-content {
-    width: 85% !important;
-    max-width: none !important;
+  width: 85% !important;
+  max-width: none !important;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
