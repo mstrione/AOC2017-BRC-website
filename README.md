@@ -12,6 +12,7 @@ Colaboran en este proyecto
 * Mauro Strione - InnQube ([mauro.strione@innqube.com](mauro.strione@innqube.com))
 * Elías Molini - [eliasmolini@gmail.com](eliasmolini@gmail.com)
 * Omar Fernandez - ([omarfl7@gmail.com](omarfl7@gmail.com))
+* Tomás Christie -  InnQube ([tomas.christie@innqube.com](tomas.christie@innqube.com))
 * Cristina Cortés - (Agregar email)
 * Mara Villamor - (Agregar email)
 
