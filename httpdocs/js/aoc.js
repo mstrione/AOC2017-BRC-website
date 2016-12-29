@@ -99,4 +99,41 @@
     $('.map').on('click', onMapClickHandler);
 
 
+    //last 20 twitter Carousel
+    var handleTweets = function(tweets) {
+        $('#twitter-feed').html("");
+        for (var i = 0; i < tweets.length; i++) {
+            $('#twitter-feed').append(
+                      '<div class="item' + (i===0?' active':'') + '">'
+                    + ' <blockquote>'
+                    + '  <div class="row">'
+                    + '    <div class="col-sm-3 text-center">'
+                    + '    <img class="img-circle" src="' +tweets[i].authorProfileImage+ '" style="width: 100px;height:100px;">'
+                    + '    </div>'
+                    + '     <div class="col-sm-9">'
+                    + '       <p>' + tweets[i].tweet +'</p>'
+                    + '       <small>'+ tweets[i].authorUsername+'</small>'
+                    + '    </div>'
+                    + '  </div>'
+                    + ' </blockquote>'
+                    + '</div>   ');
+        }
+    }
+
+    $(document).ready(function() {
+        twitterFetcher.fetch({
+            "profile": {"screenName": 'AgileOpenCamp'},
+            "dataOnly": true,
+            "domId": '',
+            "maxTweets": 20,
+            "enableLinks": true,
+            "showUser": true,
+            "showTime": true,
+            "dateFunction": '',
+            "showRetweet": true,
+            "customCallback": handleTweets,
+            "showInteraction": false
+        });
+    });
+
 })(jQuery); // End of use strict
