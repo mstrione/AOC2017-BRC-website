@@ -82,13 +82,13 @@ aside {
   width: 70px;
 }
 
-  #typeform {
-    display: block;
-  }
+#typeform {
+  display: block;
+}
 
-  #typeformMobile {
-    display: none;
-  }
+#typeformMobile {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .navbar-default .logoWhite {
@@ -97,11 +97,9 @@ aside {
   .logo-big {
     width: 60%;
   }
-
   #typeform {
     display: none;
   }
-
   #typeformMobile {
     display: block;
   }
@@ -276,6 +274,7 @@ header .header-content .header-content-inner p {
 
 section#twitter {
   background-image: url('../img/bg-twitter.jpg');
+  background-color: #cccccc;
 }
 
 .service-box {
