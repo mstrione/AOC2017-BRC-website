@@ -43,6 +43,11 @@ p {
   color: white;
 }
 
+.bg-infosoft {
+  background-color: #cfe2f3;
+  color: black;
+}
+
 .bg-success {
   background-color: #68a83f;
   color: white;
