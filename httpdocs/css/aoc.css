@@ -277,9 +277,18 @@ header .header-content .header-content-inner p {
   margin-top: 0;
 }
 
+.rightAlign td {
+  text-align: right;
+}
+
 section#twitter {
   background-image: url('../img/bg-twitter.jpg');
   background-color: #cccccc;
+}
+
+.dark td {
+    color: white;
+    background: #31708f;
 }
 
 .service-box {
